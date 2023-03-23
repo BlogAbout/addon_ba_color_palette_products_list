@@ -1,11 +1,11 @@
 <?php
 /**
-* @version 0.0.9
-* @author А.П.В.
-* @package ba_color_palette_products_list for Jshopping
-* @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
-* @license GNU/GPL
-**/
+ * @version 0.1.1
+ * @author А.П.В.
+ * @package ba_color_palette_products_list for Jshopping
+ * @copyright Copyright (C) 2010 blog-about.ru. All rights reserved.
+ * @license GNU/GPL
+ **/
 defined('_JEXEC') or die('Restricted access');
 
 define('_JSHOP_BACPPL_NAME', "Палитра расцветок товара в списке товаров.");
@@ -28,4 +28,3 @@ define('_JSHOP_BACPPL_TYPE_SORT_PROD_ASC', "По возрастанию доба
 define('_JSHOP_BACPPL_TYPE_SORT_PROD_DESC', "По убыванию добавленных атрибутов в товаре");
 define('_JSHOP_BACPPL_TYPE_SORT_ATTR_ASC', "По возрастанию значений атрибута");
 define('_JSHOP_BACPPL_TYPE_SORT_ATTR_DESC', "По убыванию значений атрибута");
-?>
