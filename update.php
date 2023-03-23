@@ -31,7 +31,7 @@ foreach ($folders as $folder) {
         $query = "
 			INSERT
 				INTO `#__extensions` (`name`, `type`, `element`, `folder`, `client_id`, `enabled`, `access`, `protected`, `manifest_cache`, `params`)
-				VALUES ('$name', '$type', '$element', '$folder', 0, 1, 1, 0, 'addslashes($cache)', '" . addslashes($params) . "')
+				VALUES ('$name', '$type', '$element', '$folder', 0, 1, 1, 0, '" . addslashes($cache) . "', '" . addslashes($params) . "')
 		";
     } else {
         $query = "
