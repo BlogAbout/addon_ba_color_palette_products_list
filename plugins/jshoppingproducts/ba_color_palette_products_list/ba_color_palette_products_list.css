@@ -1,0 +1,93 @@
+.jshop .image_block {
+	width: 100%;
+}
+
+.jshop .image_block a {
+	display: none;
+}
+
+.jshop .ba_color_palette {
+	display: block;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.jshop .ba_color_palette a {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+}
+
+.jshop .ba_color_palette a img {
+	transform: translate(-50%, 0);
+	margin-left: 50%;
+	height: 100%;
+	display: block;
+}
+
+.jshop .ba_color_palette .color_palette_image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.jshop .ba_color_palette .color_palette_image.show {
+	z-index: 3;
+}
+
+.jshop .ba_color_palette_dots {
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.jshop .ba_color_palette_dots .dot_link {
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	padding: 1px;
+	border: 1px solid #000;
+	background: #fff;
+	position: relative;
+}
+
+.jshop .ba_color_palette_dots .dot_link .dot_info {
+	position: absolute;
+	line-height: 12px;
+	font-size: 12px;
+	display: none;
+	padding: 2px;
+	top: -20px;
+	left: 0;
+    transform: translate(-50%, 0);
+    margin-left: 50%;
+	background: #000;
+	color: #fff;
+	opacity: .8;
+	z-index: 4;
+}
+
+.jshop .ba_color_palette_dots .dot_link img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.jshop .ba_color_palette_dots .dot_link:hover,
+.jshop .ba_color_palette_dots .dot_link.active {
+	background: #000;
+}

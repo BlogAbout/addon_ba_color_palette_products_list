@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0.0" method="upgrade" group="jshoppingproducts">
+	<name>JoomShopping addon - Color Palette in Products List</name>
+	<creationDate>28.08.2019</creationDate>
+	<author>Blog About</author>
+	<authorEmail>info@blog-about.ru</authorEmail>
+	<authorUrl>http://blog-about.ru</authorUrl>
+	<copyright></copyright>
+	<license>Open Source License, GNU/GPL</license>
+	<version>0.0.9</version>	
+	<description>ba_color_palette_products_list</description> 
+	<files>
+		<filename plugin="ba_color_palette_products_list">ba_color_palette_products_list.php</filename>
+	</files>
+</extension>
